@@ -229,8 +229,9 @@ body {
 
 .projects {
     display: grid;
-    grid-template: 220px 220px 220px / 390px 390px;
-    gap: 24px;
+    grid-template: 225px 225px 225px / 390px 390px;
+    column-gap: 24px;
+    row-gap: 28px;
 }
 
 .project-card {
